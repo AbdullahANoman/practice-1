@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+
+/* header styles */
+
+
+
+/* header styles end  */
+
+
+/* main starts styles */
+.donate-tk h3 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.para {
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.donate-tk ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.donate-tk ul li {
+    list-style-type: none;
+    width: 136px;
+    height: 83px;
+    background-color: #FAFAFA;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    text-align: center;
+    padding-top: 40px;
+    margin-right: 22px;
+}
+
+.tk-container {
+    margin: 0px 330px;
+}
+
+.color-tk {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+.color-tk span {
+    color: #FF5959;
+}
+
+.amount {
+    color: #B3B3B3;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.amount hr {
+    margin: 0px 200px;
+    margin-bottom: 20px;
+}
+
+.btn-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5959;
+    color: white;
+    width: 160px;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.plan-container {
+    margin: 50px 375px;
+}
+
+.plan-container h2 {
+    font-Weight: 700;
+    text-align: center;
+    font-Size: 45px;
+    margin-bottom: 20px;
+}
+
+.plan-container p {
+    color: #707070;
+    text-align: center;
+    margin: 30px 200px 50px 200px;
+    font-size: 18px;
+}
+
+.food-card {
+    margin: 0px 160px;
+
+}
+
+.food-family {
+    background-color: #EDF5F6;
+    width: 360px;
+    height: 352px;
+}
+
+.shelter-family {
+    background-color: #FFEEEE;
+    width: 360px;
+    height: 352px;
+}
+
+.education-child {
+    background-color: #F0E6C9;
+    width: 360px;
+    height: 352px;
+}
+
+.food-card-container {
+    display: flex;
+    padding: 60px 20px;
+    justify-content:space-evenly;
+}
+
+.food-card-container img,h3,p{
+    padding-left: 25px;
+}
+.food-card-container img{
+    padding-top: 60px;
+    
+}
+.food-card-container img,h3,p{
+    padding-bottom: 30px;
+}
