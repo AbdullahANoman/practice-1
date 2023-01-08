@@ -7,7 +7,7 @@
 /* header styles */
 
 .header-bg {
-    background-image: url('/images/donation1.jpg');
+    background-image: url('../images/donation1.jpg');
     height: 670px;
     width: 100%;
     background-repeat: no-repeat;
