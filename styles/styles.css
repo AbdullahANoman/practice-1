@@ -1,10 +1,37 @@
 * {
     margin: 0;
+    font-family: 'Inter', sans-serif;
+
 }
 
 /* header styles */
 
+.header-bg {
+    background-image: url('/images/donation1.jpg');
+    height: 670px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.bg-tittle {
+    position: absolute;
+    margin: 180px 500px;
+    color: white;
+
+}
+
+.bg-tittle h1 {
+    font-size: 65px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bg-tittle p {
+    font-size: 18px;
+    text-align: center;
+}
 
 /* header styles end  */
 
@@ -65,8 +92,9 @@
 }
 
 .amount hr {
-    margin: 0px 200px;
+    margin: 0px 220px;
     margin-bottom: 20px;
+    margin-top: 8px;
 }
 
 .btn-color {
@@ -129,16 +157,174 @@
 .food-card-container {
     display: flex;
     padding: 60px 20px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
-.food-card-container img,h3,p{
+.food-card-container img,
+h3 {
     padding-left: 25px;
 }
-.food-card-container img{
-    padding-top: 60px;
-    
+
+.food-card-container p {
+    padding-left: 25px;
+
 }
-.food-card-container img,h3,p{
+
+.food-card-container img {
+    padding-top: 60px;
+
+}
+
+.food-card-container img,
+h3,
+p {
     padding-bottom: 30px;
 }
+
+
+/* new styles given today  */
+
+/* container 3 styles  */
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 140px;
+}
+
+.container3-text {
+    margin: 90px 80px 0px 0px;
+}
+
+.container3-img img {
+    width: 456px;
+    height: 477px;
+    margin-right: 80px;
+}
+
+.container3 h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 100px;
+    margin-bottom: 15px;
+}
+
+.container3 p {
+    color: #707070;
+    font-size: 18px;
+    border-bottom: 8px;
+}
+
+/* container 3 styles end  */
+.btn2-color {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FF5959;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 0px;
+}
+
+/* container 4 styles start  */
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 140px;
+}
+
+.container4-text {
+    margin: 90px 0px 0px 100px;
+}
+
+.container4-img img {
+    width: 456px;
+    height: 477px;
+}
+
+.container4 h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 400px;
+    margin-bottom: 15px;
+}
+
+.container4 p {
+    color: #707070;
+    font-size: 18px;
+    border-bottom: 8px;
+}
+
+/* container 4 styles end  */
+
+/* container 5 styles start  */
+
+.container5 {
+    margin: 10px 375px;
+}
+
+.container5 h1 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container5 p {
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+}
+
+/* container 5 styles start  */
+
+/* container 6 styles start  */
+.container6 {
+    margin: 20px 390px;
+    background-color: #FFF4D6;
+    width: 809px;
+    height: 200px;
+
+}
+.term{
+    padding: 75px 185px;
+}
+#input-email {
+    width: 275px;
+    height: 48px;
+    background-color: #D9D9D9;
+    border: none;
+    padding-right: 10px;
+}
+.term>.btn2-color{
+    position:absolute;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+
+/* container 6 styles end  */
+
+/* footer styles start  */
+.foot{
+    background-color: black; 
+    margin-top: 110px;   
+}
+.foot-text {
+    padding: 40px 800px;
+    color: white;
+}
+
+.foot-text h2{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.foot-text p{
+    color: #707070;
+    text-align: center;
+}
+
+/* footer styles end  */
